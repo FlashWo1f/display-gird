@@ -32,6 +32,7 @@ grid-template-columns 属性和 grid-template-rows 属性里面，还可以使�
   grid-template-rows: [r1] 100px [r2] 100px [r3] auto [r4];
 }
 ```
+## 父容器属性
 
 ### place-items
 
@@ -81,6 +82,7 @@ grid-row-end属性：下边框所在的水平网格线
   grid-row: 1 / span 2;
 }
 ```
+## 子项目属性
 
 ### grid-area
 单元格项目中有重叠覆盖的话 可以设置 z-index
